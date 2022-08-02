@@ -1,0 +1,35 @@
+.contactcard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+    
+    
+    
+}
+.contactcard .card{
+    padding: 1em;
+    justify-content: center;
+    font-size: 2em;
+    text-align: justify;
+    width: 20em;
+    border-radius: 0.5em;
+    background-color: aliceblue;
+    color:rgb(21, 96, 150);
+    font-style: italic;
+}
+.contactcard .card a{
+    font-size: 1em;
+    color:rgb(21, 96, 150)
+}
+@media screen and (max-width:1024px){
+    .cards{
+        flex-wrap: wrap;
+    }
+    
+}
+@media screen and (max-width:600px){
+    .cards{
+        flex-wrap: wrap;
+    }
+}

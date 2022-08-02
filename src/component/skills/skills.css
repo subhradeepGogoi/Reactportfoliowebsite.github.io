@@ -1,0 +1,62 @@
+.skillpage{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.skillbox{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.5rem;
+    margin-left: 5rem;
+    margin-right: 1rem;
+}
+.skillbox.skillset{
+    flex-direction: row;
+    align-items: center;
+}
+.skillbox.box{
+    color: rgb(21, 96, 150);
+    background-color:aliceblue;
+    width: 10rem;
+    height: 10rem;
+    justify-content: center;
+    align-items: center;
+    border-radius:50%;
+    font-weight: 800;
+    font-style: italic;
+    
+}
+.skillbox.data{
+    justify-content: center;
+    background-color: rgb(246, 246, 246);
+    width: 20rem;
+    height: max-content;
+    padding:4mm;
+    margin-left:2rem;
+    border-radius: 2rem;
+    color: rgb(21, 96, 150);
+    font-weight: 600;
+    font-style: italic;
+}
+.skillbox.data:hover{
+    background-color: rgb(240, 248, 255,0.4);
+    color: rgb(255, 255, 255);
+    width: 20.5rem;
+}
+.skillbox.data h3{
+    text-align: center;
+    padding-bottom: 2rem;
+}
+@media screen and (max-width:1024px){
+    
+    .cards{
+        flex-wrap: wrap;
+    }
+    
+}
+@media screen and (max-width:600px){
+    .cards{
+        flex-wrap: wrap;
+    }
+}
