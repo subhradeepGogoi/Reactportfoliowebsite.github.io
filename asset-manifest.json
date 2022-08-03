@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Reactportfoliowebsite.github.io/static/css/main.4fb791bd.css",
+    "main.css": "/Reactportfoliowebsite.github.io/static/css/main.6e8de1a9.css",
     "main.js": "/Reactportfoliowebsite.github.io/static/js/main.67dce429.js",
     "static/media/photofinale.jpg": "/Reactportfoliowebsite.github.io/static/media/photofinale.127ee654db3382cc2e02.jpg",
     "static/media/CV.pdf": "/Reactportfoliowebsite.github.io/static/media/CV.3670a7280d681207ccf2.pdf",
     "index.html": "/Reactportfoliowebsite.github.io/index.html",
-    "main.4fb791bd.css.map": "/Reactportfoliowebsite.github.io/static/css/main.4fb791bd.css.map",
+    "main.6e8de1a9.css.map": "/Reactportfoliowebsite.github.io/static/css/main.6e8de1a9.css.map",
     "main.67dce429.js.map": "/Reactportfoliowebsite.github.io/static/js/main.67dce429.js.map"
   },
   "entrypoints": [
-    "static/css/main.4fb791bd.css",
+    "static/css/main.6e8de1a9.css",
     "static/js/main.67dce429.js"
   ]
 }
