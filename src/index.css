@@ -18,7 +18,6 @@ body{
     background-color: rgb(28, 24, 24);
     color: rgb(148, 190, 227);
     background-image: url(./assets/bg2.jpg);
-    zoom : 80%
 }
 section{
     height:100vh;   
@@ -44,15 +43,41 @@ a:hover{
     border:1px solid rgb(148, 190, 227);
 }
 
+
 @media screen and (max-width:1024px){
-    section{
-        height: 70vh;
+    header{
+        width:100vw;
     }
-    
+    section{
+        height: 160vh;
+        width: 100vw;
+    }
+    #Experience{
+        height: 200vh;
+    }
+    nav{
+        display: none;
+    }
+    .skillpage{
+        width: 90vw;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 }
-@media screen and (max-width:600px){
+@media screen and (max-width:650px){
     section{
-        height: 70vh;
+        height: 110vh;
+        width: 150vw;
     }
-    
+    header{
+        width:145vw;
+    }
+    #Experience{
+        height: 140vh;
+    }
+    .skillpage{
+        width: 135vw;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 }

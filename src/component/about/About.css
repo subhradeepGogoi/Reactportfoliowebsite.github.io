@@ -45,11 +45,6 @@ li{
 @media screen and (max-width:1024px){
     .cards{
         flex-wrap: wrap;
-    }
-    
-}
-@media screen and (max-width:600px){
-    .cards{
-        flex-wrap: wrap;
+
     }
 }
