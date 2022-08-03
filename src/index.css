@@ -91,3 +91,33 @@ a:hover{
     width: 70vw;
    }
 }
+@media screen and (max-width:450px){
+    section{
+        height: 110vh;
+        width: 100vw;
+    }
+    #About{
+        height:230vh;
+    }
+    header{
+        width:100vw;
+    }
+    #Experience{
+        height: 240vh;
+    }
+    #Skills{
+        height : 130vh;
+    }
+    .skillpage{
+        width: 95vw;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+   .contactcard{
+    flex-wrap: wrap;
+   }
+   .contactcard .card{
+    text-align: left;
+    width: 100vw;
+   }
+}
