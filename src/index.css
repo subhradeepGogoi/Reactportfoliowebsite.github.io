@@ -67,17 +67,27 @@ a:hover{
 @media screen and (max-width:650px){
     section{
         height: 110vh;
-        width: 150vw;
+        width: 100vw;
+    }
+    #About{
+        height:150vh;
     }
     header{
-        width:145vw;
+        width:100vw;
     }
     #Experience{
         height: 140vh;
     }
     .skillpage{
-        width: 135vw;
+        width: 70vw;
         flex-wrap: wrap;
         justify-content: center;
     }
+   .contactcard{
+    flex-wrap: wrap;
+   }
+   .contactcard .card{
+    text-align: left;
+    width: 70vw;
+   }
 }
